@@ -239,6 +239,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65CF6F591D77704D004B3503 /* ValueCoding.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 			};
 			name = Debug;
 		};
@@ -246,6 +247,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65CF6F591D77704D004B3503 /* ValueCoding.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 			};
 			name = Release;
 		};
