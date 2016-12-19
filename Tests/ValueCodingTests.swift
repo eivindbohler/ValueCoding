@@ -10,7 +10,6 @@ import Foundation
 import XCTest
 @testable import ValueCoding
 
-
 class ValueCodingTests: XCTestCase {
 
     var item: Foo!
@@ -36,7 +35,7 @@ class ValueCodingTests: XCTestCase {
             Foo(bar: "Bonjour le monde"),
             Foo(bar: "Hallo Welt"),
             Foo(bar: "हैलो वर्ल्ड"),
-            Foo(bar: "こんにちは世界"),
+            Foo(bar: "こんにちは世界")
         ]
         nested = [
             items

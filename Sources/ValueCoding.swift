@@ -23,7 +23,6 @@ public protocol CodedValue {
     var value: Value { get }
 }
 
-
 /**
 A generic protocol for classes which can
 encode/decode value types.
